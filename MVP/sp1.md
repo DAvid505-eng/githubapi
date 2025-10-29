@@ -1,18 +1,18 @@
-# 📌 MVP - [Nome do Projeto]
+# 📌 MVP - [Backlog do Projeto – Mapeamento das Exportações Brasileiras (2020–2025)
+
 
 ## 🎯 Objetivo do MVP
 > Descrever de forma clara qual é o propósito do MVP:  
-- Qual problema resolve?  
-- Qual hipótese será validada?  
-- Qual valor será entregue ao usuário final?  
-
+Sprint 1 Base de dados + primeiras visualizações
+Meta: Garantir que o sistema de coleta e limpeza esteja funcionando e que os primeiros dashboards sejam criados.
 ---
 
 ## 📝 Descrição da Solução
 > Breve explicação do que será desenvolvido e entregue nesta etapa.  
-- Funcionalidades principais incluídas  
-- Limitações conhecidas  
-- Escopo reduzido (somente o essencial para validar a ideia)  
+Entregáveis:
+- Download e armazenamento das bases brutas do MDIC (CSV/TXT)
+- ETL
+- Dashboard Inicial 
 
 ---
 
@@ -25,41 +25,18 @@
 ## 🔑 User Stories (Backlog do MVP)
 | ID  | User Story                                                                 | Prioridade | Estimativa |
 |-----|-----------------------------------------------------------------------------|------------|------------|
-| US1 | Como [tipo de usuário], quero [objetivo] para [benefício esperado].         | Alta       | 5 pontos   |
-| US2 | Como [tipo de usuário], quero [objetivo] para [benefício esperado].         | Média      | 3 pontos   |
+| US1 | Como Secretário de Comércio Exterior, quero visualizar exportações por estado, tipo de carga (NCM) e país de destino, para entender o cenário nacional.| Alta       | 5 pontos   |
+| US2 | Como Analista de Comércio Exterior, quero identificar as URFs que processam as exportações, para mapear rotas logísticas.|Alta| 5 pontos   |
+| US6 | Como Desenvolvedor BI, quero dados limpos e tabelas no MySQL, para construir dashboards no Power BI facilmente.| Media | 3 pontos   |
+| US7 |Como Equipe de Dados, quero padronizar NCM, estados, países e URFs, para garantir consistência.| Média      | 3 pontos   |
 
 ---
 
 ## 📅 Sprint(s) Relacionadas
 | Sprint | Entregas Principais                          | Status   |
 |--------|----------------------------------------------|----------|
-| 01     | [Funcionalidade X, Y]                        | Concluído|
-| 02     | [Funcionalidade Z]                           | Em andamento |
+| 01     |US-06, US-07, US-01 (inicial), US-02 (inicial)| Concluído|
+| 02     | US-03, US-02 (detalhada), US-08, US-04 (inicial)| Em andamento |
 
----
 
-## 📊 Critérios de Aceitação
-- O MVP deve permitir que o usuário [ação principal]  
-- O sistema deve registrar [evento importante]  
-- Métricas coletadas: [exemplo: tempo de resposta, taxa de uso]  
 
----
-
-## 📈 Métricas de Validação
-- Número de usuários que testaram o MVP  
-- Feedback qualitativo (positivo/negativo)  
-- Indicadores de negócio (exemplo: % de adesão, redução de custo, etc.)  
-
----
-
-## 🚀 Próximos Passos
-- Melhorias planejadas após feedback  
-- Ajustes de usabilidade  
-- Expansão de funcionalidades para próximo incremento  
-
----
-
-## 📂 Anexos / Evidências
-- Prints de tela  
-- Fluxos ou protótipos  
-- Vídeo (MVP)  
