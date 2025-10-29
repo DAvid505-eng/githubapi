@@ -52,11 +52,21 @@ Este projeto tem como objetivo ajudar e facilitar na utilização da plataforma 
 
 | Rank | Prioridade | User Story                                                                                                                                              | Estimativa | Sprint |
 |------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|------------|--------|
-| 1    | Alta       | Como síndico, quero abrir solicitações de vistoria predial para atender à legislação de meu município                                                    | 5          | 1      |
-| 2    | Alta       | Como atendente, quero gerenciar as solicitações de vistoria para agendar atendimento                                                                    | 8          | 1      |
-| 3    | Alta       | Como síndico, quero receber o laudo da vistoria predial para anexar ao processo de auditoria da prefeitura                                               | 5          | 2      |
-| ...  | Média      | ...                                                                                                                                                     | ...        | ...    |
-| 17   | Baixa      | Como atendente, quero um relatório de aniversários dos funcionários do condomínio que utilizam o sistema para enviar cartões acompanhados de brindes     | 2          | 3      |
+| 1    | Alta  | Como Secretário de Comércio Exterior, quero visualizar exportações por estado, tipo de carga (NCM) e país de destino, para entender o cenário nacional.| 1  | 1   |
+| 2    | Alta  | Como Analista de Comércio Exterior, quero identificar as UFs que processam as exportações, para mapear rotas logísticas.                               | 2  | 1   |
+| 6    | Media | Como Desenvolvedor BI, quero dados limpos e tabelas no MySQL, para construir dashboards no Power BI facilmente.                                        | 3  | 1   |
+| 7    | Média | Como Equipe de Dados, quero padronizar NCM, estados, países e URFs, para garantir consistência.                                                        | 4  | 1   |
+| 2    | Alta  | Como Analista de Comércio Exterior, quero identificar as UFs que processam as exportações, para mapear rotas logísticas.                               | 1  | 2   |
+| 3    | Alta  | Como Gestor do MDIC, quero acompanhar o fluxo anual de cargas (2020–2025) com sazonalidade, para planejar políticas públicas.                          | 2  | 2   |
+| 4    | Alta  | Como Tomador de decisão, quero ver os principais países de destino e concentração por NCM, para reduzir dependência e negociar acordos.                | 3  | 2   |
+| 8    | Media | Como Analista Econômico, quero analisar sazonalidade por produto (soja, carne, café), para prever picos e demandas.                                    | 4  | 2   |
+| 4    | Alta  | Como Tomador de decisão, quero ver os principais países de destino e concentração por NCM, para reduzir dependência e negociar acordos.                | 1  | 3   |
+| 5    | Alta  | Como Gestor de Produção, quero indicadores (valor médio por tonelada, participação por estado), para avaliar desempenho produtivo.                     | 2  | 3   |
+| 9    | Baixa | Como Coordenador do Projeto, quero versionar o projeto no GitHub com documentação, para garantir reprodutibilidade.                                    | 3  | 3   |
+| 10   | Baixa | Como Redator Técnico, quero um relatório acadêmico com análise crítica e recomendações, para comunicar resultados.                                     | 4  | 3   |
+
+
+
 
 
 
